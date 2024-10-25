@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="container mx-auto">
+        <nav class="">
+            <div class="navbar bg-base-100 justify-center lg:px-28">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 gap-2 text-center shadow">
+                      <li title="HOME" class="text-center"><a class="bg-[#F8F8F9]  border rounded-full py-4"> <i class="fa-solid  fa-house"></i></a></li>  
+                    
+                    <li title="RULER" class="text-center"><a class="bg-[#F8F8F9] border rounded-full py-4"> <i class="fa-solid fa-pen"></i></a></li> 
+
+                    <li title="PERSON" class="text-center"><a class="bg-[#F8F8F9] border rounded-full py-4"> <i class="fa-solid fa-person-breastfeeding"></i></a></li>  
+
+                    <li title="font awesome" class="text-center"><a class="bg-[#F8F8F9] border rounded-full py-4"><i class="fa-solid fa-font-awesome"></i></a></li>  
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost text-xl"><img src="images/logo.png" alt=""></a>
+                </div>
+                <div class="navbar-end hidden lg:flex">
+                  <ul class="menu menu-horizontal gap-5 px-1">
+                    <li title="HOME" class="text-center"><a class="bg-[#F8F8F9]  border rounded-full py-4"> <i class="fa-solid  fa-house"></i></a></li>  
+                    
+                    <li title="RULER" class="text-center"><a class="bg-[#F8F8F9] border rounded-full py-4"> <i class="fa-solid fa-pen"></i></a></li> 
+
+                    <li title="PERSON" class="text-center"><a class="bg-[#F8F8F9] border rounded-full py-4"> <i class="fa-solid fa-person-breastfeeding"></i></a></li>  
+
+                    <li title="font awesome" class="text-center"><a class="bg-[#F8F8F9] border rounded-full py-4"><i class="fa-solid fa-font-awesome"></i></a></li>  
+                  </ul>
+                </div>
+                <div class="navbar-center ml-5">
+                  <a class="btn btn-primary text-white px-10 rounded-3xl bg-[#797DFC] border-none">Sign In</a>
+                </div>
+              </div>
+    </nav>
+    </header>
+
+
+    <main class="container mx-auto">
+        <!-- banner section  -->
+         <div class="">
+            <div
+  class="hero w-5/6 py-32  flex flex-col lg:flex-row lg:px-20 mx-auto rounded-3xl "
+  style="background-image: url('images/bg.jpg');">
+  <!-- <div class="hero-overlay bg-opacity-60"></div> -->
+  <div class="hero-content h-full  w-full  text-neutral-content text-left ">
+    <div class="">
+      <h1 class="mb-5 text-5xl w-full space-y-3 text-white font-bold">Welcome to the <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#797DFC] to-[#797DFC]">ReTro</span> Forum</h1>
+      <p class="mb-5 ">
+        Share your favorite opinion and win and wp forum coffee mug!
+      </p>
+    <div class=" flex gap-2">
+        <input type="text" placeholder="Search here anything" class="input border-none rounded-full input-bordered w-full max-w-xs" />
+        <button class="btn rounded-full bg-[#797DFC] border-none text-white px-8 btn-primary">Search</button>
+    </div>
+    </div>
+  </div>
+
+
+
+  <div class="bg-white w-[90%] lg:w-[44%] rounded-3xl px-10 space-y-4 py-5 h-[200px]">
+    <div class="flex justify-between">
+      <h1>Registered Users</h1>
+      <h1 class="">01</h1>
+    </div>
+
+
+    <div class="flex justify-between">
+      <h1>Forum</h1>
+      <h1 class="">05</h1>
+    </div>
+
+
+    <div class="flex justify-between">
+      <h1>Topics</h1>
+      <h1 class="">01</h1>
+    </div>
+
+
+
+    <div class="flex justify-between">
+      <h1>Replies</h1>
+      <h1 class="">01</h1>
+    </div>
+
+
+    
+  </div>
+
+
+</div> 
+         </div>
+
+         <!-- Let’s Discuss  section -->
+          <div class="my-20">
+            <h1 class="text-4xl mb-5 text-center font-bold">Let’s Discuss</h1>
+            <p class="text-center ">Yes, you can run unit tests and view the results directly <br>within the app. The integrated testing features allow for a streamlined .</p>
+
+
+            <div id="loder" class="text-center hidden my-32">
+              <span class="loading loading-spinner loading-lg"></span>
+            </div>
+            <div class="flex flex-col lg:flex-row gap-5 ">
+              <div id="postData-container" class="  w-8/12 my-8  flex flex-col gap-5" >
+               
+              </div>
+
+
+              <div class="bg-[#F2F2FF] h-auto rounded-2xl my-8 px-10 py-5 flex-1">
+                <div class="flex items-center justify-between">
+                  <h1 class="text-2xl">Title</h1>
+                  <p class="font-bold">Mark as read <span>4</span></p>
+                </div>
+
+                <div id="details" class="my-5">
+
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
